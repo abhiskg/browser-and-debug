@@ -12,3 +12,15 @@ const intervalId = setInterval(() => {
 }, 1500);
 
 console.log("four");
+
+// confirm
+const askSomething = () => {
+  const ans = confirm("Are you coming");
+  console.log(ans); //return true or false
+};
+
+// prompt
+const getUserInfo = () => {
+  const name = prompt("Tell your name");
+  console.log(name);
+};
